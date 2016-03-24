@@ -1,0 +1,32 @@
+/* Styles go here */
+
+p{
+  background-color:blue;
+  color:white;
+}
+
+#some
+{
+  color:green;
+}
+
+.something
+{
+  background-color:green;
+  color:red;
+}
+a:link{
+	color: green;
+}
+a:visited{
+	color: red;
+}
+a:hover{
+	color:yellow;
+}
+a:active{
+	color:blue;
+}
+
+
+

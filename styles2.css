@@ -1,0 +1,60 @@
+/* Styles go here */
+p{
+  float:right;
+}
+.scroll{
+  background-color:blue;
+  height:100px;
+  width:100px;
+  color:white;
+  overflow:scroll;
+  float:right;
+}
+p:n-th child(2)
+{
+  color:pink
+}
+a:link{
+  color:green;
+  background-color:blue;
+}
+a:visited{
+  color:red;
+  background-color:green;
+}
+a:hover{
+  color:yellow;
+  background-color:orange;
+}
+a:active{
+  color:blue;
+}
+h1::before{
+  content:url(https://www.smallbusinesssaturdayuk.com/Images/Small-Business-Saturday-UK-Google-Plus-Over.gif);
+}
+p1::after{
+  content:url(http://smallbeerpress.com/wp-content/uploads/itunes.png);
+}
+img{
+  position:absolute;
+  float:left;
+  left:0px;
+  top:0px;
+  height:150px;
+  width:300px;
+  z-index:-1;
+}
+div.external{
+ width:100px;
+  height:100px;
+  padding:10px;
+  border:10px solid red;
+  background-color:yellow;
+  margin:20px;
+  overflow:hidden;
+  }
+  p::first-line{
+    font-weight:bold;
+    color:green;
+    font-size:15px;
+  }
